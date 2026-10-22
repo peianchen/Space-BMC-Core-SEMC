@@ -1,5 +1,7 @@
 # Space BMC Core RTL
 
+[工程說明](docs/ENGINEERING.zh-TW.md) · [Engineering notes](docs/ENGINEERING.md) · [Project website](https://peianchen.github.io/peian-chen/en/projects/space-bmc/)
+
 This repository starts the Space BMC Core implementation with a standalone,
 self-checking heartbeat monitor written in Verilog-2001.
 
@@ -11,6 +13,8 @@ self-checking heartbeat monitor written in Verilog-2001.
 
 Recovery sequencing and the Recovery FSM are intentionally not part of this
 milestone.
+
+The [22 October 2026 regression](docs/VALIDATION-2026-10-22.md) completed 15 checks with no errors using Questa 2025.2. This is functional simulation, not FPGA hardware or timing qualification. Use an ASCII-only checkout path on Windows if the simulator cannot open its work library.
 
 ## Timeout definition
 
